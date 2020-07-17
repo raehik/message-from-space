@@ -1,9 +1,17 @@
-#19. C Combinator
-=================
+#19. flip
+=========
 
 .. include:: note-discord.rst
 
 .. _edit it on GitHub: https://github.com/zaitsev85/message-from-space/blob/master/source/message19.rst
+
+This operator is parallel to Haskell's `flip` function:
+
+```haskell
+flip :: (a -> b -> c) -> b -> a -> c
+```
+
+It applies arguments in reverse order to a function taking 2 arguments.
 
 
 Image
